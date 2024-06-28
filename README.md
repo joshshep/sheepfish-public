@@ -9,4 +9,4 @@ site (github): https://joshshep.github.io/sheepfish-public
 site (pretty): https://colonist.ai
 
 ## TODO
-uhhhh github pages takes ~200ms to start serving the favicon for this site. Should probably just hardcode a png or svg in the index.html
+github pages takes a while to to start serving the favicon for this site (sometimes >200ms). Just hardcode a png or svg in the index.html
