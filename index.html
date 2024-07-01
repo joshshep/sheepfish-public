@@ -24,11 +24,10 @@
             border: 1px solid #333; /* Darker border */
             border-radius: 10px;
             color: #e0e0e0; /* Light text color */
-            overflow-x: auto; /* Allows horizontal scrolling if content is too wide */
-            box-sizing: border-box; /* Include padding and border in element's total width and height */
+            max-width: 100%;
         }
         .emoji {
-            display: inline-flex;
+            display: inline-block;
             width: 2ch; /* 1ch is equal to the width of the "0" character in the current font */
             text-align: center;
             color: #e0e0e0; /* Light text color */
